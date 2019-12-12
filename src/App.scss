@@ -1,0 +1,47 @@
+// Comon Variables
+
+// Colours
+
+$base-black: #282c34;
+$base-white: #F4F4F8;
+
+//Font sizes
+$base-size-heading: calc(12px + 3vmin);
+
+//Font colors
+$base-blue:#1572B6;
+$brighter-blue: #2AB7CA;
+$base-grey: #717568;
+$gainsboro-grey: #DBDBDB;
+$ash-grey: #B0B5B3;
+
+$white-smoke: #F4F4F8;
+$platinum: #E6E6EA;
+
+
+// Common styles
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+}
+
+  .section-line {
+    background-color: $ash-grey;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 2vh;
+  }
+
+  .with-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+

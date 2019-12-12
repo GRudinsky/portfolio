@@ -1,0 +1,85 @@
+@import '../../App';
+
+$image-width: 500px;
+$image-height: calc(500px/1.6);
+
+.project-wrapper {
+  display: flex;
+  // justify-content: center;
+  z-index: 1;
+  // flex-direction: column;
+  // position: relative;
+  // max-width: 800px;
+  width: 100%;
+  
+  margin-bottom: 10%;
+
+   .project-image {
+      width: $image-width;
+      height: $image-height;
+      position: relative;
+      background-size: contain;
+      background-size: 100% 100%;
+      background-position: center 0;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      opacity: 0.85;
+
+      &:hover {
+      -webkit-filter: none; /* Safari 6.0 - 9.0 */
+      filter: none;
+      opacity: 1;
+      }
+  }
+    
+  .project-description {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    // transition: $hover-transition;
+
+    .description-section {
+    height: auto;
+
+    }
+    .button-section {
+      display: flex;
+       
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 100px;
+        background-color: $base-blue;
+        color: $base-white;
+        // border: 1px solid $base-black;
+        border-radius: 1px;
+        margin-left: 1vmin;
+        &:hover {
+        opacity: 0.75;
+        }
+      }
+    }
+  }
+}
+    .absolute-background {
+      position: absolute;
+      z-index: -1;
+      // border: 10px solid $base-blue;
+      background-color: $ash-grey;
+      width: $image-width;
+      height: $image-height;
+      margin-left: 250px;
+      margin-top: 50px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+
+    
+

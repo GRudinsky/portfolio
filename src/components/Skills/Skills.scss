@@ -1,0 +1,28 @@
+@import "../../App";
+
+.body-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: $base-white;
+    
+  .section-heading {
+    font-size: $base-size-heading;
+    margin-bottom: 10vmin;
+    span{
+      color: $base-blue;
+    }
+  }
+.icons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+svg {
+  height: 100px;
+  width: 100px;
+}
+}
+  .cls-1{
+    isolation:isolate;
+  }

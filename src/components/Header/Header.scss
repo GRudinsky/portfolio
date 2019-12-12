@@ -1,0 +1,40 @@
+@import "../../App";
+
+.header-wrapper {
+  background-color: $base-white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: $base-size-heading;
+  color: $base-black;
+  
+  .name-block {
+    z-index: 1;
+    position: relative;
+    background-color: $base-white;
+    height: 50vh;
+    // background: $ash-grey;
+  }
+
+  .absolute-border {
+    position: absolute;
+    border: 100px solid $base-blue;
+    width: 40vw;
+    height: 50vh;
+    margin-left: -150px;
+    // margin-top: 0px;
+  }
+
+}
+
+.scroll-pointer {
+  color: $ash-grey;
+  z-index: 1;
+  position: fixed;
+  left: 2vmin;
+  bottom: 2vmin;
+  display: flex;
+  text-align: center;
+}
