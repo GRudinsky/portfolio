@@ -5,7 +5,7 @@ import './Header.scss'
 export default class Header extends React.Component {
   constructor() {
     super()
-    this.typeMessage = ['More content coming soon', 'This website should look better in 2020']
+    this.typeMessage = ['More style and content coming soon']
   }
 
   render() {
